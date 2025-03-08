@@ -52,7 +52,7 @@ Searched for any `ProcessCommandLine` that contained the string "tor-browser-win
 
 DeviceProcessEvents  
 | where DeviceName == "threat-hunt-gsl"  
-| where ProcessCommandLine contains "tor-browser-windows-x86_64-portable-14.0.1.exe"  
+| where ProcessCommandLine contains "tor-browser-windows-x86_64-portable-14.0.7.exe"  
 | project Timestamp, DeviceName, AccountName, ActionType, FileName, FolderPath, SHA256, ProcessCommandLine
 ```
 <img width="1212" alt="image" src="Screenshot 2025-03-08 173554.png">
