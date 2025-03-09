@@ -135,12 +135,6 @@ DeviceNetworkEvents
 - **Event:** Additional TOR network connections were established, indicating ongoing activity by user "labuser" through the TOR browser.
 - **Action:** Multiple successful connections detected.
 
-### 6. File Creation - TOR Shopping List
-
-- **Timestamp:** `2024-11-08T22:27:19.7259964Z`
-- **Event:** The user "labuser" created a file named `tor-shopping-list.txt` on the desktop, potentially indicating a list or notes related to their TOR browser activities.
-- **Action:** File creation detected.
-- **File Path:** `C:\Users\labuser\Desktop\tor-shopping-list.txt`
 
 ---
 
